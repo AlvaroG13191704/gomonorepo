@@ -1,7 +1,7 @@
 package models
 
 // Model of member (Doctor, Assitant or Administrator == Doctor)
-type Doctor struct {
+type Member struct {
 	Uid         string      `json:"uid" bson:"uid"`
 	Credentials Credentials `json:"credentials"`
 	Profile     Profile     `json:"profile" bson:"profile"`

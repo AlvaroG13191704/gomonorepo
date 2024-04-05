@@ -5,7 +5,10 @@ go_library(
     srcs = ["main.go"],
     importpath = "github.com/AlvaroG13191704/gomonorepo/services/member_service",
     visibility = ["//visibility:private"],
-    deps = ["@com_github_gofiber_fiber_v2//:fiber"],
+    deps = [
+        "//shared/models",
+        "@com_github_gofiber_fiber_v2//:fiber",
+    ],
 )
 
 go_binary(
