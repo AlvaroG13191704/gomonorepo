@@ -11,5 +11,5 @@
 
 module(
     name = "gomonorepo",
-    repo_name = "com_github_velticare_gomonorepo",
+    repo_name = "com_github_AlvaroG13191704_gomonorepo",
 )

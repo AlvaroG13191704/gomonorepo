@@ -1,6 +1,6 @@
 {
   "lockFileVersion": 3,
-  "moduleFileHash": "ebda60383fb404e1b2608efe3657c33cf330b362dfaffa4f2e6ad8973abb3c46",
+  "moduleFileHash": "1b74f0b4079ae9dda720920bab77a4a6ade23f3404666ac4c59636cbc15e7e62",
   "flags": {
     "cmdRegistries": [
       "https://bcr.bazel.build/"
@@ -20,7 +20,7 @@
       "name": "gomonorepo",
       "version": "",
       "key": "<root>",
-      "repoName": "com_github_velticare_gomonorepo",
+      "repoName": "com_github_AlvaroG13191704_gomonorepo",
       "executionPlatformsToRegister": [],
       "toolchainsToRegister": [],
       "extensionUsages": [],

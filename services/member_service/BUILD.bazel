@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
 go_library(
     name = "member_service_lib",
     srcs = ["main.go"],
-    importpath = "github.com/jankremlacek/go-bazel/services/member_service",
+    importpath = "github.com/AlvaroG13191704/gomonorepo/services/member_service",
     visibility = ["//visibility:private"],
     deps = ["@com_github_gofiber_fiber_v2//:fiber"],
 )

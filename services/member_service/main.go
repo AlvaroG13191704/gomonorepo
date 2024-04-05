@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/AlvaroG1319104/gomonorepo/shared/models"
 	"github.com/gofiber/fiber/v2"
-	"github.com/velticare/gomonorepo/shared/models"
 )
 
 func main() {
